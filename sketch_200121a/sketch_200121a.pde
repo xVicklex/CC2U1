@@ -1,12 +1,14 @@
-Ball b = new Ball();
+
+
+int DestX;
+int DestY;
 
 void setup()
 {
-  size(800, 800);
+  size(800,800);
 }
 
 void draw()
 {
-  background(0, 0, 5);
-  b.Update();
+  rect(100,100,90,50);
 }
